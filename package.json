@@ -1,6 +1,6 @@
 {
   "name": "dialogflow-webhook-parser",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple dialogflow parser created that simplifies handling response format with additional features. See readme file for more detail",
   "main": "index.js",
   "keywords": [
