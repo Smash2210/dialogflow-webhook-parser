@@ -1,6 +1,6 @@
 {
   "name": "dialogflow-webhook-parser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is an sdk for connecting to dialogflow and provides many features for managing flow of conversation. Check out readme file for more details.",
   "main": "index.js",
   "keywords": [
