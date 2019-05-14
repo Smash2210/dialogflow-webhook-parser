@@ -15,6 +15,7 @@
     - Provide selective text boxes from multiple dialogflow response lists
     - Set a context
     - Send custom payload
+    - Provide suggestions (Actions on Google)
 6. Let's see how we can perform each of the above tasks
 ---
 ### Agent Methods:  
@@ -70,7 +71,13 @@ const payloadObj = {
 }
 return agent.send(request, payloadObj);
 ```
-
+- Send suggestions
+```
+const suggestionsObj = {
+    suggestions: ['Suggestion 1','Suggestion 2', 'Suggestion 3'];
+}
+return agent.send(request, suggestionsObj);
+```
 ---
 ### Formats/Schema
 
