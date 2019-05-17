@@ -1,6 +1,10 @@
 {
   "name": "dialogflow-webhook-parser",
   "version": "1.0.4",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Smash2210/dialogflow-webhook-parser.git"
+  },
   "description": "A simple dialogflow parser created that simplifies handling response format with additional features. See readme file for more detail",
   "main": "index.js",
   "keywords": [

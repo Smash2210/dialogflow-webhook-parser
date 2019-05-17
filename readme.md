@@ -42,7 +42,7 @@ return agent.send(request, triggerObj);
 - Override dialogflow response completely
 ```
 const MessageObj = {
-    "name": "What is your name?"
+    "name": ["What is your name?"]
 }
 agent.config(MessageObject);
 const overrideObj = {
